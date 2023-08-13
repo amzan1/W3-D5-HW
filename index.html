@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>TODO</h1>
+            <div class="row">
+                <!-- <img src="unchecked.png" alt="" class="images"> -->
+                <input type="text" id="inputBx" placeholder=" Create a new todo....">
+            </div>
+            <ul id="listToDo">
+                <!-- <li class="checked">task1</li>
+                <li>task2</li>
+                <li>task3</li> -->
+            </ul>
+            <div class="filter">
+                <p><span id="num"></span>items left</p>
+                <div class="center-filter">
+                    <span id="all" class="active">All </span>
+                    <span id="active"> Active </span>
+                    <span id="completed"> Completed</span>
+                </div>
+                <span id="clear">Clear Completed</span>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
